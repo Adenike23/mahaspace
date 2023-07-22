@@ -1,0 +1,9 @@
+html,body{
+    overflow-x: hidden;
+    background-color: #fafafa;
+}
+.message{
+    z-index: 99;
+}
+
+    
