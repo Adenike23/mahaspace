@@ -5,5 +5,9 @@ html,body{
 .message{
     z-index: 99;
 }
+.firstsvg{
+    margin-right: auto;
+    margin-left: auto;
+}
 
     
