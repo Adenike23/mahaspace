@@ -1,0 +1,43 @@
+.mahaLogo-brand{
+    width: 15%;
+}
+.nav-link{
+    font-size: 14px;
+}
+.card{
+    /* height: 70vh;
+    overflow: hidden; */
+    /* position: relative; */
+}
+.card-img{
+    /* top: -50%;
+    position: absolute; */
+}
+.lead{
+    font-size: 17px;
+}
+.contact{
+    font-size: 13px;
+}
+.navButton{
+    background-color: #57093d;
+}
+.main-image{
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/talent\ image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 75vh;
+}
+.candidates{
+    background-color: #e9ecef;
+}
+.secondBox{
+    background-color: #85252e;
+}
+.thirdBox{
+    background-color: #9c337d;
+}
+.copyRight{
+    font-size: 12px;
+}
