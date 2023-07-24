@@ -41,3 +41,16 @@
 .copyRight{
     font-size: 12px;
 }
+html,body{
+    overflow-x: hidden;
+    background-color: #fafafa;
+}
+.message{
+    z-index: 99;
+}
+.firstsvg{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    
