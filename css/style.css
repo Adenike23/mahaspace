@@ -4,15 +4,6 @@
 .nav-link{
     font-size: 14px;
 }
-.card{
-    /* height: 70vh;
-    overflow: hidden; */
-    /* position: relative; */
-}
-.card-img{
-    /* top: -50%;
-    position: absolute; */
-}
 .lead{
     font-size: 17px;
 }
@@ -26,7 +17,7 @@
     background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/talent\ image.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     height: 75vh;
 }
 .candidates{
@@ -52,5 +43,47 @@ html,body{
     margin-right: auto;
     margin-left: auto;
 }
-
+.recruitersBody{
+    background-color: rgb(228, 228, 229);
+}
+.recruitersImage{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/recruiter.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 74vh;
+}
+.content{
+    box-shadow: 0 0 5px white;
+    border-radius: 3px;
+}
+.categories{
+    /* background-color: rgba(231, 231, 255, 0.91); */
+    color: blue;
+}
+.content i{
+    background-color: rgba(231, 231, 255, 0.91);
+    border-radius: 50px;
+    padding: 10px 14px;
+}
+.myTeam i{
+    font-size: 50px;
+    color: blueviolet;
+}
+.myTeam h4{
+    
+    color: rgb(39, 55, 121);
+}
+.big-text{
+    font-size: 17px;
+}
+@media screen and (max-width: 992px) {
+    .main-image{
+        height: 88vh;
+    }
+}
+@media screen and (max-width:768px) {
+    .aa{
+        font-size: 2px;
+    }
+}
     
