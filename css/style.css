@@ -21,7 +21,8 @@
     height: 75vh;
 }
 .candidates{
-    background-color: #e9ecef;
+    background-color: #f8f9fa;
+    /* background-color: #e9ecef; */
 }
 .secondBox{
     background-color: #85252e;
@@ -44,7 +45,7 @@ html,body{
     margin-left: auto;
 }
 .recruitersBody{
-    background-color: rgb(228, 228, 229);
+    background-color: #e9ecef;
 }
 .recruitersImage{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/recruiter.jpg);
@@ -55,6 +56,15 @@ html,body{
 .content{
     box-shadow: 0 0 5px white;
     border-radius: 3px;
+}
+.serviceFees{
+    background: linear-gradient(to right, rgb(73, 41, 73), #613235)
+}
+.serviceFees p{
+    font-size: 13px;
+}
+.otherServices2 {
+    background-color: #9c337d;
 }
 .categories{
     /* background-color: rgba(231, 231, 255, 0.91); */
@@ -79,11 +89,20 @@ html,body{
 @media screen and (max-width: 992px) {
     .main-image{
         height: 88vh;
+        margin-top: 3rem;
+    }
+    .main-recruiters{
+        margin-top: 3rem;
     }
 }
 @media screen and (max-width:768px) {
     .aa{
         font-size: 2px;
     }
+    .trending{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
     
