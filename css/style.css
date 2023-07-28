@@ -1,3 +1,9 @@
+html,body{
+    overflow-x: hidden;
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
 .mahaLogo-brand{
     width: 15%;
 }
@@ -13,7 +19,7 @@
 .navButton{
     background-color: #57093d;
 }
-.main-image{
+.main-talents{
     background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/talent\ image.jpg);
     background-size: cover;
     background-position: center;
@@ -32,10 +38,6 @@
 }
 .copyRight{
     font-size: 12px;
-}
-html,body{
-    overflow-x: hidden;
-    background-color: #fafafa;
 }
 .message{
     z-index: 99;
@@ -57,11 +59,18 @@ html,body{
     box-shadow: 0 0 5px white;
     border-radius: 3px;
 }
+#findTalent{
+    margin: 7rem 0;
+}
 .serviceFees{
     background: linear-gradient(to right, rgb(73, 41, 73), #613235)
 }
 .serviceFees p{
     font-size: 13px;
+}
+small{
+    text-decoration-line: line-through;
+    font-size: 18px;
 }
 .otherServices2 {
     background-color: #9c337d;
@@ -87,7 +96,7 @@ html,body{
     font-size: 17px;
 }
 @media screen and (max-width: 992px) {
-    .main-image{
+    .main-talents{
         height: 88vh;
         margin-top: 3rem;
     }
@@ -102,7 +111,11 @@ html,body{
     .trending{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }   
+}
+@media screen and (max-width:576px){
+    .main-recruiters img, .main-talents{
+        height: 100vh;
     }
-    
 }
     
