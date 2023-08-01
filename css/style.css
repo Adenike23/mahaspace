@@ -5,7 +5,7 @@ html,body{
     scroll-padding-top: 7rem;
 }
 .mahaLogo-brand{
-    width: 15%;
+    width: 35px;
 }
 .nav-link{
     font-size: 14px;
@@ -103,6 +103,10 @@ small{
     .main-recruiters{
         margin-top: 3rem;
     }
+    .navButton{
+        margin-left: 0 !important;
+        width: 15% !important;
+    }
 }
 @media screen and (max-width:768px) {
     .aa{
@@ -112,10 +116,30 @@ small{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }   
+    .main-recruiters-text, .main-talents-text{
+        width: 70% !important;
+    }
+    .navButton{
+        width: 19% !important;
+        padding-left: 0 !important;
+    }
 }
 @media screen and (max-width:576px){
-    .main-recruiters img, .main-talents{
-        height: 100vh;
+    .main-recruiters-text, .main-talents-text{
+        width: 100% !important;
+    }
+    .navButton{
+        width: 24% !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .navButton{
+        width: 29% !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .navButton{
+        width: 38% !important;
     }
 }
     
